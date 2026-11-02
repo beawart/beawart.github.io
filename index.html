@@ -1,4 +1,165 @@
 ---
-layout: home
-# Index page
+layout: null
 ---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f6f7f2">
+    <meta name="description" content="{{ site.description | strip_newlines | escape }}">
+    <link rel="canonical" href="{{ site.url }}/">
+    <link rel="icon" href="/assets/img/plansurf-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/assets/css/plansurf.css">
+    <title>{{ site.title }} — Thoughtful tools for everyday life</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="brand" href="/" aria-label="PlanSurf home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M7 25.5c4.2-7.3 8.7-11 13.5-11S29.8 18.2 33 25.5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M10 30.5h20M20.5 8v6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="20.5" cy="8" r="2" fill="currentColor"/>
+          </svg>
+        </span>
+        <span>Plan<span class="brand-light">Surf</span></span>
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="#apps">Explore apps</a>
+        <a class="nav-cta" href="https://beawart.github.io/budget/">Open Budget <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> A growing collection of useful things</p>
+          <h1 id="hero-title">Make room for <span>what matters.</span></h1>
+          <p class="hero-description">PlanSurf brings your everyday plans into focus with simple tools for your money, your home, and your time.</p>
+          <a class="button button-light" href="#apps">Find your app <span aria-hidden="true">↓</span></a>
+          <div class="hero-note">
+            <span class="note-avatar" aria-hidden="true">P</span>
+            <span>One calm place to get things in order.</span>
+          </div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-orbit orbit-one"></div>
+          <div class="art-orbit orbit-two"></div>
+          <div class="art-sun"></div>
+          <div class="art-card art-card-main">
+            <span class="art-card-kicker">YOUR LIFE, IN BALANCE</span>
+            <div class="art-line art-line-long"></div>
+            <div class="art-line art-line-short"></div>
+            <div class="art-apps">
+              <span class="art-app app-budget"><span class="mini-icon">$</span> Budget</span>
+              <span class="art-app app-property"><span class="mini-icon">⌂</span> Property</span>
+              <span class="art-app app-todo"><span class="mini-icon">✓</span> DailyTodo</span>
+            </div>
+          </div>
+          <div class="art-sticker sticker-top">A little more clarity <span>✳</span></div>
+          <div class="art-sticker sticker-bottom"><span class="sticker-check">✓</span> One step at a time</div>
+          <div class="art-sparkle sparkle-one">✳</div>
+          <div class="art-sparkle sparkle-two">✦</div>
+        </div>
+      </section>
+
+      <section class="apps-section" id="apps" aria-labelledby="apps-title">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow section-eyebrow">The PlanSurf collection</p>
+            <h2 id="apps-title">A tool for every plan.</h2>
+          </div>
+          <p class="section-intro">Start with what you need today. There’s more on the horizon.</p>
+        </div>
+
+        <div class="app-grid">
+          <article class="app-card budget-card">
+            <div class="card-topline">
+              <span class="app-icon budget-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <rect x="7" y="12" width="34" height="25" rx="7" stroke="currentColor" stroke-width="2.5"/>
+                  <path d="M7 19h34M14 29h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                  <circle cx="33" cy="29" r="2" fill="currentColor"/>
+                </svg>
+              </span>
+              <span class="status status-live"><span></span> Available now</span>
+            </div>
+            <h3>Budget</h3>
+            <p class="app-description">A clearer view of your money, so you can make a plan that feels right for you.</p>
+            <a class="app-link" href="https://beawart.github.io/budget/">Explore Budget <span aria-hidden="true">↗</span></a>
+            <div class="card-decoration budget-decoration" aria-hidden="true">
+              <span class="decoration-label">A little more in control</span>
+              <span class="decoration-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+            </div>
+          </article>
+
+          <article class="app-card property-card">
+            <div class="card-topline">
+              <span class="app-icon property-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <path d="m8 22 16-13 16 13v16H8V22Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                  <path d="M19 38V26h10v12M14 22h20" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="status status-soon">Coming soon</span>
+            </div>
+            <h3>Property</h3>
+            <p class="app-description">Keep the important details of your property together and easier to stay on top of.</p>
+            <span class="app-link app-link-muted">In the works <span aria-hidden="true">✳</span></span>
+            <div class="card-decoration property-decoration" aria-hidden="true">
+              <span class="house-shape"></span>
+              <span class="house-window"></span>
+              <span class="house-plant">✳</span>
+            </div>
+          </article>
+
+          <article class="app-card todo-card">
+            <div class="card-topline">
+              <span class="app-icon todo-icon" aria-hidden="true">
+                <svg viewBox="0 0 48 48" fill="none">
+                  <rect x="10" y="9" width="28" height="31" rx="7" stroke="currentColor" stroke-width="2.5"/>
+                  <path d="m16 20 2.5 2.5L23 18M27 21h5M16 31l2.5 2.5L23 29M27 32h5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <span class="status status-soon">Coming soon</span>
+            </div>
+            <h3>DailyTodo</h3>
+            <p class="app-description">A thoughtful daily list to help you focus on what matters, one day at a time.</p>
+            <span class="app-link app-link-muted">On the horizon <span aria-hidden="true">✳</span></span>
+            <div class="card-decoration todo-decoration" aria-hidden="true">
+              <span class="todo-check">✓</span>
+              <span class="todo-line"></span>
+              <span class="todo-check">✓</span>
+              <span class="todo-line short"></span>
+              <span class="todo-check empty"></span>
+              <span class="todo-line"></span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="closing-note" aria-label="About PlanSurf">
+        <span class="closing-mark" aria-hidden="true">✳</span>
+        <p>Made to help life feel a little more <em>manageable.</em></p>
+        <span class="closing-caption">More PlanSurf apps are on their way</span>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <a class="brand footer-brand" href="/" aria-label="PlanSurf home">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M7 25.5c4.2-7.3 8.7-11 13.5-11S29.8 18.2 33 25.5" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <path d="M10 30.5h20M20.5 8v6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+            <circle cx="20.5" cy="8" r="2" fill="currentColor"/>
+          </svg>
+        </span>
+        <span>Plan<span class="brand-light">Surf</span></span>
+      </a>
+      <p>Thoughtful tools for everyday life.</p>
+      <span class="copyright">© {{ site.time | date: "%Y" }} PlanSurf</span>
+    </footer>
+  </body>
+</html>
