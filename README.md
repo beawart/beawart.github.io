@@ -6,7 +6,7 @@ The landing page lists each app, its availability, and a link to launch it.
 ## Apps
 
 - **Budget** — available at [beawart.github.io/budget](https://beawart.github.io/budget/).
-- **Property** — coming soon.
+- **Property** — available at [beawart.github.io/property](https://beawart.github.io/property/).
 - **DailyTodo** — coming soon.
 
 ## Local development
